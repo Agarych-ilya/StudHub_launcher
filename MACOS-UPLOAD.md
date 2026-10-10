@@ -1,13 +1,13 @@
-# Upload the original StudHubLauncher 0.4.8 sources
+# Upload StudHubLauncher 0.4.8 sources with GitHub update checker
 
 The macOS workflow is configured in `.github/workflows/macos.yml`, but a build will not work until the original project files are pushed into this repository.
 
-1. Download **StudHubLauncher-0.4.8-GitHub.zip** from the ChatGPT file/library.
+1. Download **StudHubLauncher-0.4.8-GitHubUpdates.zip** from the ChatGPT file/library.
 2. Install [Git for Windows](https://git-scm.com/download/win) with [Git LFS](https://git-lfs.com/) and sign in to GitHub.
 3. In PowerShell, from the directory containing the ZIP:
 
 ```powershell
-Expand-Archive .\StudHubLauncher-0.4.8-GitHub.zip -DestinationPath .\studhub-upload -Force
+Expand-Archive .\StudHubLauncher-0.4.8-GitHubUpdates.zip -DestinationPath .\studhub-upload -Force
 git lfs install
 git clone https://github.com/Agarych-ilya/StudHub_launcher.git
 Copy-Item -Path .\studhub-upload\StudHubLauncher\* -Destination .\StudHub_launcher -Recurse -Force
