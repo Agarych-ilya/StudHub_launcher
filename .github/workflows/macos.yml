@@ -48,7 +48,7 @@ jobs:
       - name: Test Rust backend and modpack integration
         run: cargo test --manifest-path src-tauri/Cargo.toml --locked
       - name: Build universal Intel / Apple Silicon DMG
-        run: npm run tauri build -- --target universal-apple-darwin --bundles app,dmg
+        run: npm run tauri build -- --config src-tauri/tauri.macos.conf.json --target universal-apple-darwin --bundles app,dmg
       - name: Validate binary architectures and bundled modpack
         shell: bash
         run: |
