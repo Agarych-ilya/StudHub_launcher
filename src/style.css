@@ -36,3 +36,8 @@
 
 /* GitHub Releases version notices: compact, visible, non-blocking. */
 .github-update-banner{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:18px;padding:17px 20px;border:1px solid #d3b27466;border-radius:9px;background:#292518;color:#f2dca8}.github-update-banner strong{font-size:15px;font-weight:800}.github-update-banner p{font-size:12px;line-height:1.55;margin:7px 0 0;color:#ceb98d}.github-update-banner button{white-space:nowrap;display:flex;align-items:center;gap:8px}.app-update .update-tip{display:block;margin-top:8px;max-width:620px;font-size:10px;color:#7888a0;line-height:1.65}@media(max-width:1080px){.github-update-banner{flex-wrap:wrap}}
+
+/* Mandatory launcher version gate, shown above the entire application. */
+.mandatory-update-backdrop{position:fixed;inset:0;z-index:9999;background:rgba(5,9,17,.94);display:flex;align-items:center;justify-content:center;padding:24px;backdrop-filter:blur(10px)}
+.mandatory-update-dialog{width:min(100%,510px);background:#161e2d;border:1px solid #34445e;border-radius:20px;padding:34px;color:#f1f6ff;box-shadow:0 30px 100px #0009;text-align:center}
+.mandatory-update-dialog h2{font-size:26px;margin:18px 0 12px}.mandatory-update-dialog p{line-height:1.65;color:#c4cfdf}.mandatory-update-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:24px}.mandatory-update-actions button{display:inline-flex;align-items:center;gap:8px;padding:12px 18px}

@@ -427,7 +427,18 @@ async fn action(app: AppHandle, rt: State<'_, Runtime>, kind: String) -> Result<
             "install"=>{let _lock=acquire_game(&rt,&s)?;let java=game::java(&app,&rt,&s).await?;game::vanilla(&app,&rt,&s).await?;
                 let version="21.1.250".to_string();
                 game::neoforge(&app,&rt,&s,&java,&version).await?;rt.log(&app,"Minecraft, Java 21 и NeoForge установлены. Укажите ник в профиле и нажмите ИГРАТЬ.");Ok(json!({}))},
-            "play"=>{let lock=acquire_game(&rt,&s)?;let a=auth::offline(&s.nickname)?;
+            "play"=>{
+                // Security boundary: check GitHub again inside the native PLAY command.
+                // A stale frontend snapshot or direct IPC invocation cannot bypass the gate.
+                let latest = check_github_update(&app, &rt).await?;
+                match latest["status"].as_str() {
+                    Some("current") => {},
+                    Some("available") | Some("pending_asset") => {
+                        bail!("Требуется обновление StudHub Launcher до версии {}. Откройте официальный GitHub Releases.", latest["version"].as_str().unwrap_or("новой"));
+                    },
+                    _ => bail!("Не удалось подтвердить актуальность лаунчера через GitHub. Проверьте интернет и нажмите «Повторить проверку»."),
+                }
+                let lock=acquire_game(&rt,&s)?;let a=auth::offline(&s.nickname)?;
                 let _=drive::check(&app,&rt).await;
                 let m=pack::sync(&app,&rt,&s).await?;*rt.game_lock.lock().unwrap()=Some(lock);
                 match game::launch(&app,&rt,&s,&a,&m).await {Ok(pid)=>Ok(json!({"pid":pid})),Err(e)=>{rt.game_lock.lock().unwrap().take();Err(e)}}},
@@ -444,7 +455,7 @@ async fn action(app: AppHandle, rt: State<'_, Runtime>, kind: String) -> Result<
             },
             "open_github_release"=>{
                 let data=rt.github_update.lock().unwrap().clone();
-                if data["status"]!="available" {bail!("Нет доступного обновления GitHub")}
+                if data["status"]!="available" && data["status"]!="pending_asset" {bail!("Нет доступного обновления GitHub")}
                 let url=github_updates::validated_release_url(data["release_url"].as_str().ok_or_else(||anyhow::anyhow!("Нет ссылки на релиз"))?)?;
                 open::that(url)?;
                 Ok(json!({}))
@@ -554,7 +565,7 @@ fn main() {
                 }
             });
             // The first GitHub check starts immediately, independently of modpack installation.
-            // Recheck every 30 minutes; failures are nonfatal and never block PLAY.
+            // Recheck every 30 minutes; native PLAY always performs a fresh fail-closed check.
             let github_handle = app.handle().clone();
             let github_rt = rt.clone();
             tauri::async_runtime::spawn(async move {
