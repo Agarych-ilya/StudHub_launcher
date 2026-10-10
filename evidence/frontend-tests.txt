@@ -1,0 +1,15 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> studhub-launcher@0.4.0 test
+> vitest run
+
+
+ RUN  v3.2.7 /workspace/scratch/e99ea13fac10/StudHubNative
+
+ ✓ src/types.test.ts (3 tests) 3ms
+
+ Test Files  1 passed (1)
+      Tests  3 passed (3)
+   Start at  18:05:25
+   Duration  374ms (transform 40ms, setup 0ms, collect 38ms, tests 3ms, environment 0ms, prepare 70ms)
+

@@ -1,0 +1,62 @@
+[
+  {
+    "rect": {
+      "x": 23,
+      "width": 50,
+      "left": 23,
+      "right": 73,
+      "top": 30,
+      "height": 50,
+      "y": 30,
+      "bottom": 80
+    },
+    "src": "tauri://localhost/app-icon.png",
+    "complete": true,
+    "width": 128
+  },
+  {
+    "rect": {
+      "x": 247,
+      "width": 998,
+      "left": 247,
+      "right": 1245,
+      "top": 103,
+      "height": 298,
+      "y": 103,
+      "bottom": 401
+    },
+    "src": "tauri://localhost/world.png",
+    "complete": true,
+    "width": 1536
+  },
+  {
+    "rect": {
+      "x": 247,
+      "width": 998,
+      "left": 247,
+      "right": 1245,
+      "top": 103,
+      "height": 298,
+      "y": 103,
+      "bottom": 401
+    },
+    "src": "tauri://localhost/world-valley.png",
+    "complete": true,
+    "width": 1672
+  },
+  {
+    "rect": {
+      "x": 247,
+      "width": 998,
+      "left": 247,
+      "right": 1245,
+      "top": 103,
+      "height": 298,
+      "y": 103,
+      "bottom": 401
+    },
+    "src": "tauri://localhost/world-snow.png",
+    "complete": true,
+    "width": 1672
+  }
+]

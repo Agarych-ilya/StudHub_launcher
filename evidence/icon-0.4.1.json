@@ -1,0 +1,16 @@
+{
+  "new_ico_images": 6,
+  "embedded_windows_icon_images": 6,
+  "exact_match_to_new_ico": true,
+  "machine": "0x8664",
+  "gui_subsystem": 2,
+  "version": [
+    {
+      "b'CompanyName'": "b'studhub'",
+      "b'FileDescription'": "b'StudHub Launcher'",
+      "b'FileVersion'": "b'0.4.1'",
+      "b'ProductName'": "b'StudHub Launcher'",
+      "b'ProductVersion'": "b'0.4.1'"
+    }
+  ]
+}

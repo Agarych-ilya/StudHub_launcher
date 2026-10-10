@@ -1,0 +1,27 @@
+MakeNSIS v3.09-4 - Copyright 1999-2023 Contributors
+See the file COPYING for license details.
+Credits can be found in the Users Manual.
+
+Command line defined: "APP_EXE=/workspace/scratch/e99ea13fac10/StudHubNative/src-tauri/target/x86_64-pc-windows-msvc/release/studhub-launcher.exe"
+Command line defined: "WEBVIEW_EXE=/tmp/StudHub-WebView2Setup.exe"
+Command line defined: "OUTPUT_FILE=/workspace/scratch/e99ea13fac10/output/StudHubLauncher-0.4.0-Setup.exe"
+Processing config: /etc/nsisconf.nsh
+Processing script file: "tools/installer.nsi" (UTF8)
+
+Processed 1 file, writing output (x86-unicode):
+
+Output: "/workspace/scratch/e99ea13fac10/output/StudHubLauncher-0.4.0-Setup.exe"
+Install: 4 pages (256 bytes), 1 section (4120 bytes), 469 instructions (13132 bytes), 285 strings (11760 bytes), 2 language tables (604 bytes).
+Uninstall: 2 pages (192 bytes), 1 section (4120 bytes), 61 instructions (1708 bytes), 152 strings (4918 bytes), 2 language tables (500 bytes).
+Datablock optimizer saved 26498 bytes (~0.1%).
+
+Using lzma (compress whole) compression.
+
+EXE header size:              205312 / 100864 bytes
+Install code:                          (28288 bytes)
+Install data:                          (22194274 bytes)
+Uninstall code+data:                   (114547 bytes)
+Compressed data:            10125210 / 22337109 bytes
+CRC (0x627FEB08):                  4 / 4 bytes
+
+Total size:                 10330526 / 22437977 bytes (46.0%)

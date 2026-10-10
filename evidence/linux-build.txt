@@ -1,0 +1,144 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> studhub-launcher@0.4.0 tauri
+> tauri build --bundles deb
+
+        Info Looking up installed tauri packages to check mismatched versions...
+     Running beforeBuildCommand `npm run build`
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> studhub-launcher@0.4.0 build
+> tsc --noEmit && vite build
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 1746 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.36 kB │ gzip:  0.27 kB
+dist/assets/index-CmsMN3PX.css   18.91 kB │ gzip:  4.97 kB
+dist/assets/index-B7EYz2Ed.js   255.86 kB │ gzip: 79.94 kB
+✓ built in 1.81s
+   Compiling pkg-config v0.3.34
+   Compiling winnow v0.5.40
+   Compiling libc v0.2.190
+   Compiling target-lexicon v0.12.16
+   Compiling version-compare v0.2.1
+   Compiling serde_core v1.0.229
+   Compiling toml_datetime v0.6.3
+   Compiling serde_spanned v0.6.9
+   Compiling smallvec v1.16.2
+   Compiling cfg-if v1.0.5
+   Compiling pin-project-lite v0.2.17
+   Compiling memchr v2.8.3
+   Compiling once_cell v1.21.4
+   Compiling futures-core v0.3.34
+   Compiling futures-macro v0.3.34
+   Compiling futures-task v0.3.34
+   Compiling slab v0.4.12
+   Compiling serde v1.0.229
+   Compiling cfg-expr v0.15.8
+   Compiling proc-macro-error-attr v1.0.4
+   Compiling syn v1.0.109
+   Compiling proc-macro-error v1.0.4
+   Compiling futures-util v0.3.34
+   Compiling futures-channel v0.3.34
+   Compiling zerofrom v0.1.8
+   Compiling stable_deref_trait v1.2.1
+   Compiling thiserror v1.0.69
+   Compiling thiserror-impl v1.0.69
+   Compiling yoke v0.8.3
+   Compiling heck v0.4.1
+   Compiling zerovec v0.11.8
+   Compiling itoa v1.0.18
+   Compiling bytes v1.12.1
+   Compiling writeable v0.6.4
+   Compiling litemap v0.8.3
+   Compiling gio v0.18.4
+   Compiling zerotrie v0.2.5
+   Compiling toml_edit v0.20.2
+   Compiling parking_lot_core v0.9.12
+   Compiling futures-io v0.3.34
+   Compiling tinystr v0.8.4
+   Compiling potential_utf v0.1.6
+   Compiling utf8_iter v1.0.4
+   Compiling scopeguard v1.2.0
+   Compiling percent-encoding v2.3.2
+   Compiling lock_api v0.4.14
+   Compiling icu_locale_core v2.3.0
+   Compiling icu_collections v2.3.0
+   Compiling bitflags v2.13.2
+   Compiling icu_normalizer_data v2.3.0
+   Compiling icu_properties_data v2.3.0
+   Compiling parking_lot v0.12.5
+   Compiling http v1.5.0
+   Compiling errno v0.3.14
+   Compiling memoffset v0.9.1
+   Compiling signal-hook-registry v1.4.8
+   Compiling form_urlencoded v1.2.2
+   Compiling toml_edit v0.19.15
+   Compiling mio v1.2.4
+   Compiling futures-executor v0.3.34
+   Compiling socket2 v0.6.5
+   Compiling field-offset v0.3.6
+   Compiling icu_provider v2.3.1
+   Compiling zmij v1.0.23
+   Compiling log v0.4.34
+   Compiling tokio v1.53.2
+   Compiling icu_properties v2.3.0
+   Compiling toml v0.8.2
+   Compiling proc-macro-crate v2.0.2
+   Compiling system-deps v6.2.2
+   Compiling icu_normalizer v2.3.0
+   Compiling serde_json v1.0.151
+   Compiling gtk v0.18.2
+   Compiling proc-macro-crate v1.3.1
+   Compiling thiserror v2.0.21
+   Compiling hashbrown v0.17.1
+   Compiling equivalent v1.0.2
+   Compiling idna_adapter v1.2.2
+   Compiling glib-sys v0.18.1
+   Compiling gobject-sys v0.18.0
+   Compiling gio-sys v0.18.1
+   Compiling gdk-sys v0.18.2
+   Compiling atk-sys v0.18.2
+   Compiling cairo-sys-rs v0.18.2
+   Compiling pango-sys v0.18.0
+   Compiling gdk-pixbuf-sys v0.18.0
+   Compiling glib-macros v0.18.5
+   Compiling gtk-sys v0.18.2
+   Compiling idna v1.1.0
+   Compiling javascriptcore-rs-sys v1.1.1
+   Compiling soup3-sys v0.5.0
+   Compiling gtk3-macros v0.18.2
+   Compiling url v2.5.8
+   Compiling indexmap v2.14.2
+   Compiling webkit2gtk-sys v2.0.2
+   Compiling x11 v2.21.0
+   Compiling deranged v0.5.8
+   Compiling powerfmt v0.2.1
+   Compiling num-conv v0.2.2
+   Compiling base64 v0.23.1
+   Compiling time-core v0.1.9
+   Compiling gdkx11-sys v0.18.2
+   Compiling getrandom v0.2.17
+   Compiling aho-corasick v1.1.5
+   Compiling typeid v1.0.3
+   Compiling zeroize v1.9.1
+   Compiling bitflags v1.3.2
+   Compiling alloc-no-stdlib v3.0.0
+   Compiling regex-syntax v0.8.11
+   Compiling alloc-stdlib v0.3.0
+   Compiling crossbeam-utils v0.8.23
+   Compiling dpi v0.1.2
+   Compiling time v0.3.55
+   Compiling uuid v1.27.0
+   Compiling glib v0.18.5
+   Compiling generic-array v0.14.7
+   Compiling erased-serde v0.4.10
+   Compiling x11-dl v2.21.0
+   Compiling libdbus-sys v0.2.7
+   Compiling raw-window-handle v0.6.2
+   Compiling fnv v1.0.7
+   Compiling web-time v1.1.0
+   Compiling typenum v1.20.1

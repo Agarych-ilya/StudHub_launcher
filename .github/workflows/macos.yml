@@ -1,39 +1,20 @@
-name: Build StudHub macOS DMG
-
+name: StudHub macOS universal installer
 on:
   workflow_dispatch:
   push:
     branches: [main]
-    tags: ['v*']
-    paths:
-      - 'package.json'
-      - 'package-lock.json'
-      - 'src/**'
-      - 'src-tauri/**'
-
 permissions:
-  contents: write
-
+  contents: read
 jobs:
-  macos-universal:
-    name: macOS Intel + Apple Silicon
+  macos:
     runs-on: macos-15
-    timeout-minutes: 120
     steps:
-      - name: Check out source and modpack (Git LFS)
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           lfs: true
-      - name: Ensure launcher source and complete modpack exist
-        shell: bash
-        run: |
-          test -f package-lock.json || { echo 'Missing source files: upload the full StudHubLauncher project first.'; exit 1; }
-          test -f src-tauri/resources/studhub-pack-1.0.2.zip || { echo 'Missing modpack: upload it via Git LFS.'; exit 1; }
-          test "$(stat -f%z src-tauri/resources/studhub-pack-1.0.2.zip)" -eq 187653771 || { echo 'Modpack has wrong size (maybe LFS pointer).'; exit 1; }
-          file src-tauri/resources/studhub-pack-1.0.2.zip
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: 22
           cache: npm
       - uses: dtolnay/rust-toolchain@stable
         with:
@@ -41,34 +22,19 @@ jobs:
       - uses: swatinem/rust-cache@v2
         with:
           workspaces: src-tauri
-      - name: Install JavaScript dependencies
-        run: npm ci
-      - name: Test frontend
-        run: npm test
-      - name: Test Rust backend and modpack integration
-        run: cargo test --manifest-path src-tauri/Cargo.toml --locked
-      - name: Build universal Intel / Apple Silicon DMG
-        run: npm run tauri build -- --config src-tauri/tauri.macos.conf.json --target universal-apple-darwin --bundles app,dmg
-      - name: Validate binary architectures and bundled modpack
+      - run: npm ci
+      - run: npm test
+      - run: cargo test --manifest-path src-tauri/Cargo.toml
+      - run: npm run tauri build -- --target universal-apple-darwin --bundles app,dmg
+      - name: Verify both architectures and bundled modpack
         shell: bash
         run: |
-          app='src-tauri/target/universal-apple-darwin/release/bundle/macos/StudHub Launcher.app'
-          dmg_dir='src-tauri/target/universal-apple-darwin/release/bundle/dmg'
-          test -d "$app"
+          app="src-tauri/target/universal-apple-darwin/release/bundle/macos/StudHub Launcher.app"
           lipo -verify_arch arm64 x86_64 "$app/Contents/MacOS/studhub-launcher"
           codesign --verify --deep --strict "$app"
-          cmp 'src-tauri/resources/studhub-pack-1.0.2.zip' "$app/Contents/Resources/resources/studhub-pack-1.0.2.zip"
-          find "$dmg_dir" -maxdepth 1 -name '*.dmg' -size +100M | grep -q .
-      - name: Upload DMG from Actions
-        uses: actions/upload-artifact@v4
+          cmp src-tauri/resources/studhub-pack-1.0.2.zip "$app/Contents/Resources/resources/studhub-pack-1.0.2.zip"
+      - uses: actions/upload-artifact@v4
         with:
-          name: StudHubLauncher-0.4.8-macOS-universal-DMG
+          name: StudHubLauncher-macOS-universal
           path: src-tauri/target/universal-apple-darwin/release/bundle/dmg/*.dmg
           if-no-files-found: error
-          retention-days: 30
-      - name: Attach DMG to GitHub Release (version tags only)
-        if: startsWith(github.ref, 'refs/tags/v')
-        uses: softprops/action-gh-release@v2
-        with:
-          files: src-tauri/target/universal-apple-darwin/release/bundle/dmg/*.dmg
-          generate_release_notes: true

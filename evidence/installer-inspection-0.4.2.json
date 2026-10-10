@@ -1,0 +1,7 @@
+{
+  "embedded_client_matches_release": true,
+  "instruction_matches": true,
+  "client_sha256": "1b5846a608e1af62b861fcf82dd215acf94451ad75b3136b404b76c82304c244",
+  "installer_sha256": "61180399e26f8b8899922e8d04be97767bc5e4cb2f9a67788c2934c56e247f71",
+  "windows_execution_tested": false
+}

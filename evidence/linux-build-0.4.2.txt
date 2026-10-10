@@ -1,0 +1,2 @@
+   Compiling studhub-launcher v0.4.2 (/workspace/scratch/e99ea13fac10/restored/project/StudHubLauncher/src-tauri)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 9.69s

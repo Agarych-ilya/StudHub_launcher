@@ -1,0 +1,29 @@
+Click .folder-button
+Click .play-button
+Click .account-card .primary
+Click .account-card .primary
+Click nav button:nth-child(2)
+Click .repair-card button
+Click nav button:nth-child(4)
+Click .settings-save button:first-child
+Click button[aria-label="Открыть журнал"]
+Click button[aria-label="Закрыть журнал"]
+Click nav button:first-child
+{
+  "passed": [
+    "Настоящее desktop-окно: главная страница загрузилась",
+    "Rust IPC: чтение настоящих настроек",
+    "Встроенная сборка 1.0.2: 48 JAR автоматически установлены, ложных конфликтов нет",
+    "Кнопка mods: настоящий каталог создан, системный обработчик папки вызван",
+    "Играть без ника: переход к профилю",
+    "Telegram login отсутствует в интерфейсе",
+    "Rust backend отклоняет удалённую Telegram-команду",
+    "Ник: пустой отклонён, валидный сохранён настоящим Rust backend",
+    "Microsoft OAuth-команда удалена",
+    "Навигация: сборка и профиль",
+    "Исправить сборку: повреждённый настоящий мод восстановлен из встроенного архива без CDN",
+    "Настройки: изменение RAM сохранено Rust backend в JSON",
+    "Журнал открывается по запросу",
+    "Минимальное окно 960×660: основные элементы доступны"
+  ]
+}

@@ -1,0 +1,10 @@
+✔ Launcher publication signs exact installer bytes and exports only public configuration (111.310276ms)
+✔ Administrator CLI hashes and signs actual files; keygen refuses overwrite (248.43411ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 336.481477

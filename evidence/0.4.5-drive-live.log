@@ -1,0 +1,10 @@
+   Compiling studhub-launcher v0.4.5 (/workspace/scratch/e99ea13fac10/project/StudHubLauncher/src-tauri)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 1.98s
+     Running unittests src/main.rs (src-tauri/target/debug/deps/studhub_launcher-c2c5638626abcf86)
+
+running 1 test
+[{"id":"1EHpLI0yRDJtXyF8369jy3GTC1KKY41OI","name":"Сборка модов 1.0.2.zip","size":187653771,"modified":1791124687126}]
+test drive::tests::live_public_folder ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 23 filtered out; finished in 4.92s
+

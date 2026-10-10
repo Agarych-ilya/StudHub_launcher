@@ -1,0 +1,8 @@
+{
+  "installer": "NSIS 3 Unicode / LZMA",
+  "embedded_client_bytes": 20267008,
+  "release_sha256": "90f64467774c1f61f506112ebe40ad5d3b77eea1b94b38aaf7520810465d0f4e",
+  "embedded_sha256": "90f64467774c1f61f506112ebe40ad5d3b77eea1b94b38aaf7520810465d0f4e",
+  "matches": true,
+  "windows_execution_tested": false
+}

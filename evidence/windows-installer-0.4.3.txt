@@ -1,0 +1,23 @@
+Command line defined: "APP_EXE=/workspace/scratch/e99ea13fac10/output/StudHubLauncher-0.4.3.exe"
+Command line defined: "WEBVIEW_EXE=/tmp/StudHub-WebView2.exe"
+Command line defined: "OUTPUT_FILE=/workspace/scratch/e99ea13fac10/output/StudHubLauncher-0.4.3-Setup.exe"
+Processing config: /etc/nsisconf.nsh
+Processing script file: "installer.nsi" (UTF8)
+
+Processed 1 file, writing output (x86-unicode):
+
+Output: "/workspace/scratch/e99ea13fac10/output/StudHubLauncher-0.4.3-Setup.exe"
+Install: 4 pages (256 bytes), 1 section (4120 bytes), 471 instructions (13188 bytes), 288 strings (11900 bytes), 2 language tables (604 bytes).
+Uninstall: 2 pages (192 bytes), 1 section (4120 bytes), 63 instructions (1764 bytes), 154 strings (5026 bytes), 2 language tables (500 bytes).
+Datablock optimizer saved 26498 bytes (~0.1%).
+
+Using lzma (compress whole) compression.
+
+EXE header size:              227840 / 100864 bytes
+Install code:                          (28484 bytes)
+Install data:                          (21292608 bytes)
+Uninstall code+data:                   (137288 bytes)
+Compressed data:             9661774 / 21458380 bytes
+CRC (0xC660AD1B):                  4 / 4 bytes
+
+Total size:                  9889618 / 21559248 bytes (45.8%)

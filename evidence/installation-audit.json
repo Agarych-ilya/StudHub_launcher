@@ -1,0 +1,14 @@
+{
+  "minecraft": "1.21.1",
+  "client_sha1": "30c73b1c5da787909b2f73340419fdf13b9def88",
+  "assets_verified": 3911,
+  "neoforge": "21.1.256",
+  "verified_neoforge_outputs": {
+    "libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-extra.jar": "fd02f80f4eec9dfaa1714cb62595d013cbac03d52d19dd0623d1922b999c40b7",
+    "libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar": "a649bd3ce77f122d0f83ae1b37b4b303e662470f928b9bee5fbc76580805ffd4",
+    "libraries/net/neoforged/neoforge/21.1.256/neoforge-21.1.256-client.jar": "aff67d0c3bbd015ecd881bb37416b740ada2e1e854433501ec5bb9381dbdd1c2",
+    "libraries/net/neoforged/neoforge/21.1.256/neoforge-21.1.256-universal.jar": "e0a08bae5cea95be96c09770530f5643bb183af8af59c64694eb346cb4c93fa4",
+    "versions/neoforge-21.1.256/neoforge-21.1.256.json": "44a3ec7ea252cd2f50a9570680c0469ce46235ba8d5afd3b904e42d80f39a166"
+  },
+  "java": "openjdk version \"21.0.7\" 2025-04-15 LTS\nOpenJDK Runtime Environment Microsoft-11369942 (build 21.0.7+6-LTS)\nOpenJDK 64-Bit Server VM Microsoft-11369942 (build 21.0.7+6-LTS, mixed mode)"
+}

@@ -1,0 +1,14 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> studhub-launcher@0.4.3 build
+> tsc --noEmit && vite build
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 1746 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.36 kB │ gzip:  0.27 kB
+dist/assets/index-CLlxYWUk.css   19.10 kB │ gzip:  5.02 kB
+dist/assets/index-BymxKeP1.js   253.41 kB │ gzip: 79.48 kB
+✓ built in 1.79s

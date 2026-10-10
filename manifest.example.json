@@ -1,0 +1,344 @@
+{
+  "version": "1.0.2",
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.250",
+  "files": [
+    {
+      "path": "mods/aeronautical_diesel-1.1.0.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/aeronautical_diesel-1.1.0.jar",
+      "size": 54547,
+      "sha256": "c5cace06cf11cabb70602ec661ada5df88f112f8645220e6882bdff570c156f0",
+      "mod_id": "aeronautical_diesel"
+    },
+    {
+      "path": "mods/aeroworks-1.5.0.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/aeroworks-1.5.0.jar",
+      "size": 790152,
+      "sha256": "30bad4bf907ee5ae2849de163634cf9a5bc8507bb4b12d7d291c59f3265d7bad",
+      "mod_id": "aeroworks"
+    },
+    {
+      "path": "mods/alltheleaks-1.1.13%2B1.21.1-neoforge.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/alltheleaks-1.1.13%252B1.21.1-neoforge.jar",
+      "size": 565062,
+      "sha256": "c9b76623003dd05dda452d9ed42cb23623b09383fe9ac1efb41c46a3b69ff601",
+      "mod_id": "alltheleaks"
+    },
+    {
+      "path": "mods/architectury-13.0.11-neoforge.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/architectury-13.0.11-neoforge.jar",
+      "size": 584734,
+      "sha256": "9cc92f2c09533fc5482c60f993bd891c655a0e32b637037cdcb7c2b23adedeeb",
+      "mod_id": "architectury"
+    },
+    {
+      "path": "mods/c2me-neoforge-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/c2me-neoforge-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "size": 3717245,
+      "sha256": "672bd9a7dc3fae20817f3563e140d82be90845ef50ce26f57698082d4b2918c0",
+      "mod_id": "c2me"
+    },
+    {
+      "path": "mods/cbcatfix-1.1.0.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/cbcatfix-1.1.0.jar",
+      "size": 600422,
+      "sha256": "756d83a7ff40d7fd019cd5bd2258708930a8f8890a1e01f0bd51c89d17d5caad",
+      "mod_id": "cbcatfix"
+    },
+    {
+      "path": "mods/cbc_at_Neoforge_1.21.1_0.1.4c.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/cbc_at_Neoforge_1.21.1_0.1.4c.jar",
+      "size": 1438535,
+      "sha256": "88fb40b3353308c90d68f4512b78b63fd7278d05915d9d8628cecab9508ee58f",
+      "mod_id": "cbc_at"
+    },
+    {
+      "path": "mods/Chunky-NeoForge-1.4.23.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/Chunky-NeoForge-1.4.23.jar",
+      "size": 340572,
+      "sha256": "d72f235cf1f56f2c374f52c00bdda5034524b28142305a84cfc123a3f92ad274",
+      "mod_id": "chunky"
+    },
+    {
+      "path": "mods/copycats-3.0.9%2Bmc.1.21.1-neoforge.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/copycats-3.0.9%252Bmc.1.21.1-neoforge.jar",
+      "size": 1799381,
+      "sha256": "d1efdd8688af6603dff9425299ac4547ef56a7d5cfee757716ead7853276694e",
+      "mod_id": "copycats"
+    },
+    {
+      "path": "mods/create-1.21.1-6.0.10.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/create-1.21.1-6.0.10.jar",
+      "size": 19123767,
+      "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+      "mod_id": "create"
+    },
+    {
+      "path": "mods/create-aeronautics-bundled-1.21.1-1.3.2.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/create-aeronautics-bundled-1.21.1-1.3.2.jar",
+      "size": 33123131,
+      "sha256": "a3f330d4757640f8715d991a43eedb826e4d0e51558d859c843ae6693bd35f1e",
+      "mod_id": "aeronautics_bundled"
+    },
+    {
+      "path": "mods/create-track-map-2.1+mc1.21.1-neoforge.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/create-track-map-2.1%2Bmc1.21.1-neoforge.jar",
+      "size": 3274545,
+      "sha256": "e708b13d9c7b3e551a65b40ba96b7b1974fab001437be276a140f215b1369978",
+      "mod_id": "createtrackmap"
+    },
+    {
+      "path": "mods/createaddition-1.7.1.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/createaddition-1.7.1.jar",
+      "size": 1726257,
+      "sha256": "69035faca181f645f23cff493fcfeebc5b3fb0f910460cf6547be13b6219062e",
+      "mod_id": "createaddition"
+    },
+    {
+      "path": "mods/createbigcannons-5.11.7+mc.1.21.1.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/createbigcannons-5.11.7%2Bmc.1.21.1.jar",
+      "size": 3771506,
+      "sha256": "ea017ab94637032d039899d88404838d173fa0e6286657cae6a6c3af459e87ca",
+      "mod_id": "createbigcannons"
+    },
+    {
+      "path": "mods/createdieselgenerators-1.21.1-1.3.15.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/createdieselgenerators-1.21.1-1.3.15.jar",
+      "size": 3154746,
+      "sha256": "56ef1d574278fc311f1ffa223dbd613077b899354a18d01ae8dca2578a4e2990",
+      "mod_id": "createdieselgenerators"
+    },
+    {
+      "path": "mods/createjeicompat-1.0.3.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/createjeicompat-1.0.3.jar",
+      "size": 34183,
+      "sha256": "f2f1d42caf628cddb29de7991c5a4d64f8ceef21727df997c4c355bfa20c5cf1",
+      "mod_id": "createjeicompat"
+    },
+    {
+      "path": "mods/create_aero_radar-0.1.1-1.21.1.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/create_aero_radar-0.1.1-1.21.1.jar",
+      "size": 160220,
+      "sha256": "77da138d202ed9fa95f57ee45c411f7af4b6addfa55ff5175bd379b68cd079a6",
+      "mod_id": "create_aero_radar"
+    },
+    {
+      "path": "mods/create_connected-1.3.3-mc1.21.1.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/create_connected-1.3.3-mc1.21.1.jar",
+      "size": 6786784,
+      "sha256": "89d2404d2d5bc696b1813e39b9d1616a41888f74a648771152b0b0323a490265",
+      "mod_id": "create_connected"
+    },
+    {
+      "path": "mods/create_radar-0.4.9.4-1.21.1.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/create_radar-0.4.9.4-1.21.1.jar",
+      "size": 2990812,
+      "sha256": "4554359fee389b1c255b4cef23ac41e978b2a371cec9e952185f4ec0a90ee930",
+      "mod_id": "create_radar"
+    },
+    {
+      "path": "mods/create_train_physics-0.2.0-beta.2.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/create_train_physics-0.2.0-beta.2.jar",
+      "size": 61401,
+      "sha256": "e9a2d7e34f0abf51a579adb2de632df680471da23ab1751af22c0eb4518b5f43",
+      "mod_id": "create_train_physics"
+    },
+    {
+      "path": "mods/croptopia-neoforge-1.21.1-4.2.4.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/croptopia-neoforge-1.21.1-4.2.4.jar",
+      "size": 2220594,
+      "sha256": "6bbca7da92548a727abd29bc04fbd659dff87718ae24a1558d8ae83f654c6574",
+      "mod_id": "croptopia"
+    },
+    {
+      "path": "mods/crowns-1.21.1-2.2.5.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/crowns-1.21.1-2.2.5.jar",
+      "size": 1283630,
+      "sha256": "1e0060b189f90a199b18d75f8207134c6e0be192b2e33e54b12f7276eb36d59a",
+      "mod_id": "crowns"
+    },
+    {
+      "path": "mods/curios-neoforge-9.5.1+1.21.1.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/curios-neoforge-9.5.1%2B1.21.1.jar",
+      "size": 410690,
+      "sha256": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
+      "mod_id": "curios"
+    },
+    {
+      "path": "mods/EpheroLib-1.21.1-NEO-FORGE-1.2.0.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/EpheroLib-1.21.1-NEO-FORGE-1.2.0.jar",
+      "size": 746263,
+      "sha256": "875647ca276c2cfc9418ee2d62398c61380eac8d79ab0e555aefa09ac3b07d18",
+      "mod_id": "epherolib"
+    },
+    {
+      "path": "mods/ferritecore-7.0.3-neoforge.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/ferritecore-7.0.3-neoforge.jar",
+      "size": 121559,
+      "sha256": "d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8",
+      "mod_id": "ferritecore"
+    },
+    {
+      "path": "mods/ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar",
+      "size": 104654,
+      "sha256": "1fffe12e3e8343ef52d306ee29f7d6f6724d47a185a375c4a3c75aab3894c68d",
+      "mod_id": "forgeconfigapiport"
+    },
+    {
+      "path": "mods/formicapi-1.21.1-2.4.1.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/formicapi-1.21.1-2.4.1.jar",
+      "size": 1032055,
+      "sha256": "56199a24686347d39a88cf55d7594966c6b479d177cb3d0b3e727d9ce598a8db",
+      "mod_id": "formicapi"
+    },
+    {
+      "path": "mods/geckolib-neoforge-1.21.1-4.9.3.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/geckolib-neoforge-1.21.1-4.9.3.jar",
+      "size": 634531,
+      "sha256": "20a1995e4074f387ff549e2c57ea79dd7d41ee83c6afb9dd6a6e840e592d1c47",
+      "mod_id": "geckolib"
+    },
+    {
+      "path": "mods/jei-1.21.1-neoforge-19.57.0.449.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/jei-1.21.1-neoforge-19.57.0.449.jar",
+      "size": 2252654,
+      "sha256": "1bdd4471bc232bfbd8d262876593a9a9ac85f2e4966adbfa4348795c47ecf63e",
+      "mod_id": "jei"
+    },
+    {
+      "path": "mods/jeioptimizer-1.21.1-1.2.0-19.56.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/jeioptimizer-1.21.1-1.2.0-19.56.jar",
+      "size": 26493,
+      "sha256": "34362edf87e749bc2b8dfa2996de584e6a2f0da013f7af08794c647cdad6722a",
+      "mod_id": "jeioptimizer"
+    },
+    {
+      "path": "mods/kotlinforforge-5.12.0-all.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/kotlinforforge-5.12.0-all.jar",
+      "size": 7279276,
+      "sha256": "095aed94f21b4e55895b21ea957750ae3ab829fbcfc6d3c66a3489f5f1128d46",
+      "mod_id": null
+    },
+    {
+      "path": "mods/lithostitched-1.8.0-neoforge-21.1.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/lithostitched-1.8.0-neoforge-21.1.jar",
+      "size": 979783,
+      "sha256": "204699b4e3aa3176e2da5b145c6c66887363821f2bd671ba77bd94750036e169",
+      "mod_id": "lithostitched"
+    },
+    {
+      "path": "mods/ntgl-1.21.1-3.2.0.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/ntgl-1.21.1-3.2.0.jar",
+      "size": 3965533,
+      "sha256": "38c3a93426c44195b7cdb0773b2d4554496bcc57f994f19779714e03b0bf0122",
+      "mod_id": "ntgl"
+    },
+    {
+      "path": "mods/ParCool-1.21.1-4.0.0.6.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/ParCool-1.21.1-4.0.0.6.jar",
+      "size": 1226046,
+      "sha256": "39175ededc1bf67097529d6e249040168844645d08411fcea15a77916d6c7a65",
+      "mod_id": "parcool"
+    },
+    {
+      "path": "mods/player-animation-lib-forge-2.0.4+1.21.1.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/player-animation-lib-forge-2.0.4%2B1.21.1.jar",
+      "size": 203149,
+      "sha256": "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92",
+      "mod_id": "playeranimator"
+    },
+    {
+      "path": "mods/powergrid-mc1.21.1-0.6.2.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/powergrid-mc1.21.1-0.6.2.jar",
+      "size": 5738480,
+      "sha256": "e40d67a874431925d502af88e85064883c67936cfd689033d7df560cffcf19e7",
+      "mod_id": "powergrid"
+    },
+    {
+      "path": "mods/ritchiesprojectilelib-2.1.2-mc.1.21.1-neoforge.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/ritchiesprojectilelib-2.1.2-mc.1.21.1-neoforge.jar",
+      "size": 76369,
+      "sha256": "cc509060833736fb650aa4c36b1ce33a7eeeb9ca6e9f8e80a7c951c9e7487b24",
+      "mod_id": "ritchiesprojectilelib"
+    },
+    {
+      "path": "mods/sable-neoforge-1.21.1-2.0.5.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/sable-neoforge-1.21.1-2.0.5.jar",
+      "size": 12986136,
+      "sha256": "c8710f85bc780bbf523e6726ceaaf76dd0b8c61479db497b382c6bb34317e7ab",
+      "mod_id": "sable"
+    },
+    {
+      "path": "mods/sablexaeromaps-1.21.1-1.4.0.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/sablexaeromaps-1.21.1-1.4.0.jar",
+      "size": 108711,
+      "sha256": "e99bc926e1767c8d86757e33310b8db5178b06f4f7b0e0a8a769194f3428e22f",
+      "mod_id": "sablexaeromaps"
+    },
+    {
+      "path": "mods/sable_optimizer-1.0.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/sable_optimizer-1.0.jar",
+      "size": 26148,
+      "sha256": "0fd54d275472dfeb2cfffc83f0ae51fc880cd47cadff07637028d4fdce1da636",
+      "mod_id": "sable_optimizer"
+    },
+    {
+      "path": "mods/sodium-neoforge-0.8.13+mc1.21.1.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/sodium-neoforge-0.8.13%2Bmc1.21.1.jar",
+      "size": 1292934,
+      "sha256": "575d187b15328d7bddd8a9b1bee64333c22c14735f5780ec49eac0cd5503c08d",
+      "mod_id": "sodium"
+    },
+    {
+      "path": "mods/tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar",
+      "size": 57242132,
+      "sha256": "58f6ab47c59218bdb10bb9eee1905b6cd27f3bc98d4af13982a6002a99b1d3e7",
+      "mod_id": "tacz"
+    },
+    {
+      "path": "mods/tacz-pack-upgrader-2.1.3.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/tacz-pack-upgrader-2.1.3.jar",
+      "size": 1704774,
+      "sha256": "58d326d6c4924f4a1e8e16341b0973c9d361276adb4f2ca522d87c0b0a0f5473",
+      "mod_id": "taczpackupgrader"
+    },
+    {
+      "path": "mods/taczruntimecompat-1.0.1.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/taczruntimecompat-1.0.1.jar",
+      "size": 38217,
+      "sha256": "e2976aa162a9a0d851cf13b788e2cdc57b829e42d5a188ea8dcb6629261ac6de",
+      "mod_id": "taczruntimecompat"
+    },
+    {
+      "path": "mods/Terralith_1.21.x_v2.6.2.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/Terralith_1.21.x_v2.6.2.jar",
+      "size": 2814865,
+      "sha256": "d38bd304897731b42f6c013cdc07e082e74411e80c74aabcee385251beb3b546",
+      "mod_id": "terralith"
+    },
+    {
+      "path": "mods/voicechat-neoforge-1.21.1-2.6.24.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/voicechat-neoforge-1.21.1-2.6.24.jar",
+      "size": 4934688,
+      "sha256": "7af3bbc34948cc0f833946fd4b0d2db7ed608f67a12702be4df6f731a4b66290",
+      "mod_id": "voicechat"
+    },
+    {
+      "path": "mods/xaerominimap-neoforge-1.21.1-26.5.0.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/xaerominimap-neoforge-1.21.1-26.5.0.jar",
+      "size": 2185559,
+      "sha256": "667105d8fdca64b27b29d8e0b88e67e7342038d3fb4edc4129bf452b601c6d20",
+      "mod_id": "xaerominimap"
+    },
+    {
+      "path": "mods/xaeroworldmap-neoforge-1.21.1-1.46.0.jar",
+      "url": "https://cdn.example.com/studhub/1.0.2/mods/xaeroworldmap-neoforge-1.21.1-1.46.0.jar",
+      "size": 1422680,
+      "sha256": "a7f059e4c48211f6d5c962e7640f5179cc1636bccc907ea77ab9e1865635cb24",
+      "mod_id": "xaeroworldmap"
+    }
+  ],
+  "incompatible_user_mods": []
+}

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+src-tauri/target/
+playwright-report/
+test-results/
+.native-test/
+.native-test-*/
+deployment.json
+*.pem
+*.key
+*.secret
+

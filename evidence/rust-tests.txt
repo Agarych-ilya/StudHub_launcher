@@ -1,0 +1,24 @@
+   Compiling studhub-launcher v0.4.0 (/workspace/scratch/e99ea13fac10/StudHubNative/src-tauri)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 3.69s
+     Running unittests src/main.rs (src-tauri/target/debug/deps/studhub_launcher-bd0466330d0178ea)
+
+running 16 tests
+test game::tests::replacement_and_unknown_placeholder ... ok
+test game::tests::maven_paths ... ok
+test game::tests::rules_are_evaluated ... ok
+test net::tests::denies_insecure_sources ... ok
+test game::tests::incomplete_installer_profile_is_not_success ... ok
+test net::tests::denies_private_sources ... ok
+test game::tests::repairing_installer_clears_derived_files_but_preserves_user_mods ... ok
+test pack::tests::refuses_to_overwrite_untracked_file ... ok
+test pack::tests::interrupted_commit_remains_repairable ... ok
+test pack::tests::hash_and_atomic_replace ... ok
+test pack::tests::rejects_traversal_and_windows_names ... ok
+test pack::tests::rejects_symlink ... ok
+test pack::tests::update_repairs_managed_preserves_user_and_removes_obsolete ... ok
+test net::tests::verifies_signature_and_rejects_tampering ... ok
+test net::tests::downloads_and_retries_corrupt_bytes ... ok
+test net::tests::failed_download_preserves_previous_file_and_cleans_temp ... ok
+
+test result: ok. 16 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.84s
+

@@ -1,0 +1,7 @@
+{
+  "version": "0.4.2",
+  "telegram_session_endpoint_absent": true,
+  "transparent_icon_resources_match": true,
+  "icon_sizes": 6,
+  "windows_execution_tested": false
+}
